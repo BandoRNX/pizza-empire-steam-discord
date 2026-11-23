@@ -1,0 +1,37 @@
+[
+  {
+    "gid": "1846018067938691",
+    "title": "Ashen - Update v0.1.18",
+    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067938691",
+    "is_external_url": true,
+    "author": "bando ✮",
+    "contents": "[h3]✨ New[/h3]\n[list]\n[*] Fish basket and meal basket icons redrawn in a cleaner pixel-art style\n[*] Stat icons added throughout the UI\n[*] Equipment slots now show a rarity-colored border on the character sheet\n[*] Smoother, more natural camera\n[/list]\n[img]{STEAM_CLAN_IMAGE}/46288169/79d471dd6ae7ea5d800284da0743cb560ca3eb89.gif[/img]\n\n[h3]⚖️ Balance[/h3]\n[list]\n[*] Gear strengthened\n[*] Wisdom replaced by a new Defense stat\n[*] Agility's speed bonus corrected\n[*] Calciné's set bonus reworked\n[*] Cooked fish dishes now grant a short combat buff instead of only restoring HP\n[/list]\n\n[h3]🐛 Fixes[/h3]\n[list]\n[*] Fixed a rare save-corruption issue on slow loads\n[*] Fixed several cases where a full inventory could cause items to be lost\n[*] The equipment vault no longer reshuffles your stored items on load\n[*] Fixed Steam Rich Presence freezing on old values\n[*] Fixed the cooking screen darkening more each time it's reopened\n[*] Fixed a fishing quest that could trigger before the island was reachable\n[*] The dungeon recap screen now shows the correct translated name\n[/list]",
+    "feedlabel": "Community Announcements",
+    "date": 1791731470,
+    "feedname": "steam_community_announcements",
+    "feed_type": 1,
+    "appid": 3826790,
+    "tags": [
+      "patchnotes",
+      "mod_reviewed",
+      "ModAct_1894963720_1791732213_0",
+      "mod_require_rereview"
+    ]
+  },
+  {
+    "gid": "1844751498228965",
+    "title": "Ashen - Update v0.1.15",
+    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498228965",
+    "is_external_url": true,
+    "author": "bando ✮",
+    "contents": "[h3]✨ New[/h3]\n[list]\n[*] Korean and Polish added (10 languages now supported)\n[*] Mison gives two new quests: an introduction to the talent tree and to the bestiary\n[*] Harvey gives a new quest introducing the dungeon log (per-dungeon badges)\n[*] Olf gives a new quest showing how to upgrade equipment (merge two duplicates into a stronger piece)\n[*] Abel and Kawett now point you to the Recipes and Professions menus at the end of their quest chains\n[*] Buy seeds from Kawett in bulk (x1/5/10/25/50/100)\n[*] Profession level-up popup shows the exact bonus (cursor speed, success gauge size) and the key to open the Professions tab\n[*] Quest/menu key hints now show the correct key for keyboard or gamepad\n[/list]\n\n[h3]⚖️ Balance[/h3]\n[list]\n[*] Golem's ground slam radius halved\n[*] Golem AoE (craters and ground slam) no longer lands on water\n[*] Death no longer costs XP\n[*] Crater Maw badges tab stays locked until Crypt of Braise level 5 is cleared\n[/list]\n\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed Golem Fragment quest item getting stuck in inventory after turning in Emma's quest\n[*] Fixed a grey screen sometimes appearing right after loading into the world\n[*] Fixed the Dungeon tab's scroll also scrolling the quest tracker behind it\n[*] Fixed live language switching not retranslating NPC chat lines\n[*] Fixed missing Korean/Polish quest titles and descriptions (were falling back to English)\n[*] Fixed language button alignment in Settings\n[/list]",
+    "feedlabel": "Community Announcements",
+    "date": 1790507772,
+    "feedname": "steam_community_announcements",
+    "feed_type": 1,
+    "appid": 3826790,
+    "tags": [
+      "patchnotes"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+name: Pizza Empire Steam reviews to Discord
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "12,27,42,57 * * * *"
+
+permissions:
+  contents: write
+
+# Même groupe que sync.yml : les deux workflows ne poussent jamais en même temps.
+concurrency:
+  group: pizza-steam-sync
+  cancel-in-progress: false
+
+jobs:
+  reviews:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Post new Steam reviews
+        env:
+          DISCORD_REVIEWS_WEBHOOK_URL: "${{ secrets.DISCORD_REVIEWS_WEBHOOK_URL }}"
+        run: python sync_reviews.py
+
+      - name: Save reviews state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f reviews_state.json ]; then
+            git add reviews_state.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Update Steam reviews state"
+              git pull --rebase
+              git push
+            fi
+          fi
