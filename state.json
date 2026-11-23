@@ -1,0 +1,607 @@
+{
+  "initialized": true,
+  "seen_ids": [
+    "1826362059926735",
+    "1826362059928052",
+    "1826362059928090",
+    "1826362059928217",
+    "1826362059928390",
+    "1826362059929046",
+    "1826362059932202",
+    "1826362059932446",
+    "1826362059932553",
+    "1826362059933494",
+    "1826362059934070",
+    "1826992588591377",
+    "1826992588592654",
+    "1826992588594030",
+    "1826992588596121",
+    "1826992588604714",
+    "1827626365752181",
+    "1827626365755236",
+    "1827626365759779",
+    "1827626365760457",
+    "1827626365765087",
+    "1827626365766922",
+    "1828441623106480",
+    "1828441623113196",
+    "1828894815565785",
+    "1830163047267689",
+    "1832065502814298",
+    "1833334318575664",
+    "1833968530889165",
+    "1833968530898356",
+    "1838407329264505",
+    "1843481262696344",
+    "1846651706693804",
+    "1847286114037469",
+    "1847286114041514",
+    "1847286114042763"
+  ],
+  "pending": [
+    {
+      "gid": "1826362059929046",
+      "title": "Pizza Empire - Update v1.6",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059929046",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "✨ New Features\n\n[list]\n[*] Help button in the menu - full in-game guide\n[*] Permanent bonus now displayed in Statistics\n[*] Ascension count now displayed in Statistics\n[*] Price in € and production per second shown in the shop\n[*] Pizza Box 🍕\n[/list]\n\n🐛 Bug Fixes\n\n[list]\n[*] \"Fast Food\" achievement fixed - now unlocks correctly\n[*] Prestige button no longer disappears after closing the menu\n[*] Permanent bonus no longer appeared to reset after an Ascension\n[*] Dynamic shop - buttons turn green when you can afford an upgrade\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773005643,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1294976491_1773007134_0",
+        "ModAct_871423085_1788718836_4",
+        "ModAct_1866137740_1792492032_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1826362059932202",
+      "title": "Pizza Empire - Update v1.7",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059932202",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[p]✨ New Features[/p][p][/p][list][*][p]Save files are now linked to your Steam account (automatic migration from previous saves) [/p][p][/p][/*][/list][p] 🐛 Bug Fixes [/p][p][/p][list][*][p]Fixed animation loop error causing performance issues over time[/p][/*][*][p]Fixed Pizza Box appearing immediately at launch for returning players[/p][/*][*][p]Fixed permanent ascension bonus not loading correctly after restarting the game[/p][/*][*][p]Pizza Box is live but still being fine-tuned - item drops may not work correctly yet. I'm actively working on it! [/p][p][/p][/*][/list][p]\n💬 Feedback\nIf you encounter any issues, feel free to leave a comment or report a bug - every report helps! 🍕[/p]",
+      "feedlabel": "Community Announcements",
+      "date": 1773130229,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1434411615_1773131051_0",
+        "ModAct_1425979202_1773133190_4",
+        "ModAct_871423085_1788718821_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1826362059932446",
+      "title": "Pizza Empire - Update v1.8",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059932446",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "🐛 Bug Fixes\n\n[list]\n[*] Money display no longer caps at 1,000T - new suffixes Qa (quadrillion) and Qi (quintillion) are now supported\n[*] Steam items now drop automatically and correctly in the background - \"NEW ITEM !\" appears on screen when something lands in your inventory\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773137739,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1425979202_1773137978_0",
+        "ModAct_871423085_1788718820_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1826362059932553",
+      "title": "Pizza Empire - Update v1.9",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059932553",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[p]✨ New Achievements[/p][p]6 new achievements to unlock: [/p][list][*][p]🔥 Fire it up! - Buy your first oven [/p][/*][*][p]🛵 On the way! - Hire your first delivery driver [/p][/*][*][p]😴 Insomniac - Play for 2 hours total [/p][/*][*][p]🌟 Golden Fever - Click 50 golden pizzas [/p][/*][*][p]👔 Dough Boss - Own at least 10 of each upgrade [/p][/*][*][p]💎 Pizza Mogul - Own at least 100 of each upgrade[/p][/*][/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773141026,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1826362059933494",
+      "title": "Pizza Empire - Update v1.10",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059933494",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "✨ New Features\n\n[list]\n[*] Golden Pizzas now glow and play a sound when they appear - easier to spot!\n[*] Golden Pizza click count is now visible in the Stats panel\n[*] New number suffixes beyond Qi: Sx, Sp, Oc, No, Dc\n[/list]\n\n⚖️ Balancing\n\n[list]\n[*] Golden Pizzas spawn more often and stay on screen longer\n[*] Early game progression feels smoother\n[/list]\n\n🐛 Bug Fixes\n\n[list]\n[*] Prestige button now stays visible even when the shop is open\n[*] Windowed mode now works properly\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773162295,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1826362059934070",
+      "title": "Pizza Empire - Update v1.11",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059934070",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "✨ New Features\n\n[list]\n[*] Steam Rich Presence now displays your ascension level, prestige stars and pizzas/s in your friends list\n[/list]\n\n🐛 Bug Fixes\n\n[list]\n[*] Fixed negative balance at high ascension levels (integer overflow on click amount)\n[*] Fixed Fast Food achievement being permanently locked after 30 minutes of total playtime - the timer now resets on every prestige\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773180002,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1826992588591377",
+      "title": "Pizza Empire - Update v1.12",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588591377",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "✨ New Features\n\n[list]\n[*] Bulk buying - New x1 / x5 / x10 / x25 / x100 / MAX buttons in the shop. The displayed cost shows the total for all purchases at once\n[*] Passive click bonus - Each click now temporarily boosts your production by +10% for 5 seconds\n[*] Animation speed slider - Adjust the game's animation speed from x0.25 to x3.00 in the settings menu\n[*] Custom cursors - Unlock and equip pizza slice cursors from your Steam inventory (Cheese, Pepperoni, Golden, Purple)\n[*] 4 new achievements - Track pizzas earned through clicking: 1K, 10K, 100K and 1M pizzas clicked\n[/list]\n\n🎨 Visual Improvements\n\n[list]\n[*] Stats, Collection windows are now draggable\n[*] Consistent dark theme with gold borders across all windows\n[*] Upgrade and Prestige buttons now reflect affordability and ascension state with color\n[/list]\n\n🐛 Bug Fixes\n\n[list]\n[*] Fixed the \"Clicker\" achievement threshold reduced from 100K to 50K clicks\n[*] Fixed Golden Pizza timer position - now displayed correctly on screen\n[*] Fixed achievements not syncing to Steam on game load\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773279345,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1519738978_1773280820_0",
+        "ModAct_871423085_1788718659_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1826992588592654",
+      "title": "Pizza Empire - Update v1.13",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588592654",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🌍 New Languages [/h3]\n\n[list]\n[*] Added 6 new supported languages: Polish, Hungarian, Croatian, Norwegian, Dutch and Finnish\n[/list]\n\n[h3]🎨 Visual Improvements[/h3]\n\n[list]\n[*] Updated icons for all 4 collectible Steam items - Cheese, Pepperoni, Golden and Purple slices now have brand new artwork\n[/list]\n\n[h3]🐛 Bug Fixes[/h3]\n\n[list]\n[*] Fixed settings menu and collection labels (\"Curseurs\", \"Défaut\", \"FERMER\") always displaying in French regardless of the player's language\n[*] Fixed Rich Presence debug log spamming the console\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773327306,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1826992588594030",
+      "title": "Pizza Empire - Update v1.14",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588594030",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🏆 New Achievements[/h3]\n[list]\n[*] ASCENSION_5 (Ascend 5 times)\n[*] ASCENSION_10 (Ascend 10 times)\n[*] ASCENSION_20 (Ascend 20 times)\n[*] ASCENSION_50 (Ascend 50 times)\n[*] MIDNIGHT_PIZZA (Play between midnight and 4 AM)\n[*] WEEKEND_WARRIOR (Play on both Saturday and Sunday)\n[/list]\n[h3]🏅 New Leaderboards[/h3]\n[list]\n[*] Global rankings for Total Pizzas, Ascensions and Total Money\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed leaderboard scores displaying as infDc\n[*] Fixed SpeedRun achievement unlockable after prestige reset\n[*] Fixed stats panel crash on open\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773353555,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1890460210_1773356369_0",
+        "ModAct_871423085_1788718661_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1826992588596121",
+      "title": "Pizza Empire - Update v1.15",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588596121",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed number display cap at 1.00Dc for high ascension players\n[*] Fixed ascension bonus being corrupted in save files after reaching the cap\n[*] Fixed language availability (Hungarian and other languages now properly selectable)\n[/list]\n[h3]🌍 Community[/h3]\n[list]\n[*] Official website now available: https://pizzaempire.store/\n[*] Pizza Empire is now available as a Twitch category: https://www.twitch.tv/directory/category/pizza-empire-2\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773419967,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1826992588604714",
+      "title": "Pizza Empire - Update v1.16",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588604714",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🐛 Bug Fixes[/h3][list][*][p] Numbers were getting stuck at 1.00Dc - fixed, the count now goes way beyond!\n[/p][/*][*][p] Midnight Craving achievement now triggers immediately when you launch the game between midnight and 4 AM\n[/p][/*][*][p] Leaderboard scores were displaying as giant corrupted numbers for some players - fixed\n[/p][/*][*][p] Owned cursors (Cheese/Pepperoni) were appearing locked in the skin menu - fixed\n[/p][/*][*][p] Ascension bonus was hitting an invisible wall and stalling for high-ascension players - fixed, no more cap!\n[/p][/*][*][p] Leaderboard scores will automatically recalculate and update on next launch for all players[/p][/*][/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773768942,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1847323374_1773769120_0",
+        "ModAct_871423085_1773859558_4",
+        "ModAct_1598046824_1773901430_4",
+        "ModAct_871423085_1788718646_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1827626365752181",
+      "title": "Pizza Empire - Update v1.17",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365752181",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Leaderboard scores with very high values now display correctly (e.g. e+815) instead of showing corrupted numbers\n[*] Fixed leaderboard scores displaying as oversized numbers for some players\n[*] Leaderboard scores will automatically refresh on next game launch\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773901556,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1598046824_1773901975_0",
+        "ModAct_871423085_1788718647_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1827626365755236",
+      "title": "Pizza Empire - Update v2",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365755236",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🎨 Collection System[/h3]\n[list]\n[*] New Collection panel with 3 categories: Cursors, Pizzas, Delivery\n[*] Pizza skins: Margherita, Pepperoni, 4 Stagioni - unlock by reaching new pizza recipes\n[*] New Gold Delivery Scooter skin - obtainable as a random Steam drop while playing!\n[/list]\n[h3]✨ Visual Improvements[/h3]\n[list]\n[*] Animated oven, factory, buildings and delivery scooter\n[/list]\n[h3]🏆 New Achievements (7 new)[/h3]\n[list]\n[*] Viva la Pizza! - Return to Pizza Empire\n[*] Lunch Break - Play between 11am and 2pm\n[*] Pizzaholic - Play 7 days in a row\n[*] It's Not Delivery... - Earn €1M with oven only\n[*] Side Hustle - Earn €1M with delivery only\n[*] Weapon of Mass Production - Earn €1M with factory only\n[*] Golden Fever - Earn 1,000,000 pizzas during a single Golden Bonus\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Leaderboard scores with very high values now display correctly instead of showing corrupted numbers\n[*] Leaderboard scores will automatically refresh on next game launch\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1773944272,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1294976491_1773948736_0",
+        "ModAct_871423085_1788718497_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1827626365759779",
+      "title": "Pizza Empire - Update v2.1",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365759779",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed a critical exploit where spamming the Ascension/Prestige button could open multiple panels simultaneously, allowing players to confirm multiple ascensions in seconds - leaderboard scores affected by this exploit will be reset with the arrival of Season 1 🍕\n[*] Fixed tooltips getting stuck when hovering quickly over locked collection items\n[*] Fixed the \"Earn €1,000,000 with a single upgrade\" achievement not unlocking correctly\n[/list]\n[h3]✨ New Content[/h3]\n[list]\n[*] 4 new delivery skins: Ghost Rider, Tokyo Night, T-Rex Rider, Magic Carpet\n[*] 2 new cursor skins: Rainbow Slice, Sea Slice\n[*] New CRAFT tab in the Collection - combine 10 items of the same rarity to craft 1 item of the next rarity (Common → Uncommon → Rare → Legendary)\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1774090684,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1425146861_1774091691_0",
+        "ModAct_871423085_1788718498_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1827626365760457",
+      "title": "Pizza Empire - Update v2.2",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365760457",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]✨ New Content[/h3]\n[list]\n[*] Added VIVA LA PIZZA! achievement retroactive unlock - if you already played before the achievement was added, it will automatically unlock on your next launch\n[*] Added Bug Hunter Slice - an exclusive legendary cursor skin awarded to players who help improve the game 🐛\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed the Collection panel not displaying items immediately when opened\n[*] Fixed a \"NEW ITEM!\" notification incorrectly triggering every time the Collection panel was opened\n[*] Fixed the inventory refresh looping infinitely in the background, causing performance issues\n[*] Fixed a crash when closing the Collection or Craft panel very quickly after opening it\n[/list]\n[h3]🌍 Localization[/h3]\n[list]\n[*] Translated all Craft UI elements into all 17 supported languages (tab name, rarity names, button states, Last Drop label)\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1774113835,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1607812438_1774114521_0",
+        "ModAct_871423085_1788718477_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1827626365765087",
+      "title": "Pizza Empire - Update v2.3",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365765087",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]✨ New Content[/h3]\n[list]\n[*] Discord Rich Presence - show off your Pizza Empire progress to your friends directly in Discord 🍕\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed the menu button not being accessible while the Upgrades panel was open\n[*] Fixed the Collection panel not closing when opening the Help screen\n[/list]\n[h3]✨ Improvements[/h3]\n[list]\n[*] Item tooltips now show specific unlock information depending on the item - daily drop, click-based unlock, or exclusive\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1774338695,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1827626365766922",
+      "title": "Pizza Empire - Update v2.4",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365766922",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]✨ New Content[/h3]\n[list]\n[*] 3 new cursor skins - find them in the Collection! 🍕\n[*] 2 new plane skins - Rainbow Plane and Electro Plane, now droppable from the Pizza Box!\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed Legendary craft - not all Rare items were available as crafting ingredients\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1774392646,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_487176015_1774396033_0",
+        "ModAct_871423085_1788718448_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1828441623106480",
+      "title": "Pizza Empire - Update v2.5",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623106480",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🏆 Season 1 - Now Live![/h3]\n[list]\n[*] Season 1 has officially started! It runs for 2 months, from March 28 at 1:00 PM UTC to May 28, 2026.\n[*] 3 new exclusive Season 1 items are now droppable from the Pizza Box - the Season 1 Slice, Season 1 Scooter and Season 1 Plane. These items will only drop during Season 1, but remain tradeable forever once obtained!\n[*] The Season 1 leaderboard is now live - scores reset and a new competition begins. Good luck! 🍕\n[/list]\n[h3]🐣 Easter 2026 Event[/h3]\n[list]\n[*] The Easter event is now live! 3 limited Easter items are droppable from the Pizza Box - the Easter Slice, Easter Bunny Scooter and Easter Plane.\n[*] These items are only available until April 5, 2026 at 11:59 PM (Paris time). Don't miss them!\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Inventory not loading for some Russian players - this issue is still being investigated, we're working on a fix.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1774701869,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1425146861_1774702396_0",
+        "ModAct_871423085_1788718464_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1828441623113196",
+      "title": "Pizza Empire - Update v2.6",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623113196",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed the 7 days in a row achievement (Pizzaholic) not unlocking when the game was left running overnight - the game now tracks the date change in real time.\n[*] Added a protection against macro and auto-clicker abuse on ascensions.\n[/list]\nIf you're experiencing any issues, don't hesitate to reach out in the Community Hub - I'm very active there and happy to help! And if you're enjoying the game, a review goes a long way 🍕",
+      "feedlabel": "Community Announcements",
+      "date": 1774986770,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1828894815565785",
+      "title": "Pizza Empire - Update v2.7",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815565785",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]✨ Improvements[/h3]\n[list]\n[*] The stats panel now shows a 🔥 LOGIN STREAK: X days counter so you can track your progress directly in-game.\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] The Pizzaholic achievement (7 days in a row) now saves your login immediately on launch, even for short sessions.\n[*] Day streak detection is now more robust - days are sorted and deduplicated before counting, preventing any ordering issues.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1775499211,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1830163047267689",
+      "title": "Pizza Empire - Update v2.8",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047267689",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]✨ New Content[/h3]\n[list]\n[*] Added the 🎥 Youtuber Slice - a brand new cursor skin dedicated to content creators!\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed several item name display issues in the craft panel.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1776749899,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1519738978_1776751229_0",
+        "ModAct_871423085_1788718434_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1832065502814298",
+      "title": "Pizza Empire - Update v2.9",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502814298",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]✨ New Content[/h3]\n[list]\n[*] Added the 🌸 Pink Slice - a new rare cursor skin, obtainable through drops!\n[/list]\n[h3]🛡️ Improvements[/h3]\n[list]\n[*] The reset button now requires a double confirmation to prevent accidental resets.\n[*] Added protections to prevent abusive rapid ascensions.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1778228872,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1878895840_1778229434_0",
+        "ModAct_871423085_1788718435_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1833334318575664",
+      "title": "Pizza Empire - Update v2.10",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318575664",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "🏴‍☠️\n\n[b]Season 1 ends on 28 May 2026.[/b] The Season 1 exclusive items will no longer be obtainable after that date.\n\nSeason 2 begins on 28 May 2026, right when Season 1 ends. New exclusive items are now available to collect!\n\nComplete UI overhaul.",
+      "feedlabel": "Community Announcements",
+      "date": 1779643338,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1889321037_1779644814_0",
+        "ModAct_871423085_1788718421_4",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1833968530889165",
+      "title": "Pizza Empire - Season 2 is LIVE!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530889165",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "Season 2 is now LIVE!\n\nThe Season 1 leaderboards are now locked - your final scores are saved. A new era begins!\n\n[h3]✨ What's New[/h3]\n[list]\n[*] [b]Season 2 Leaderboards[/b] - fresh rankings for Total Pizzas, Prestiges & Total Money. Everyone starts from zero. Climb back to the top!\n[*] [b]4 new S2 items[/b] - now available from the daily Pizza Box.\n[*] Season 1 exclusives have been removed from the drop pool.\n[/list]\n\nKeep clicking, keep ascending. See you at the top! 👑\n\nBando.",
+      "feedlabel": "Community Announcements",
+      "date": 1779993713,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1833968530898356",
+      "title": "Pizza Empire - Update v2.11",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530898356",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🛠️ Improvements[/h3][list][*][p] The leaderboard window is now draggable - click and drag the title bar to move it anywhere on screen. [/p][/*][/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1780336003,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1838407329264505",
+      "title": "Pizza Empire - Update v2.12",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329264505",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed a graphics glitch that could cause a corrupted/garbled screen on startup on some Windows setups (DirectX rendering issue).\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1784508682,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1843481262696344",
+      "title": "Pizza Empire - Update v2.13",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262696344",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]✨ New[/h3]\n[list]\n[*] Leaderboards now show the full player list, page by page - click a player's photo to view their Steam profile.\n[/list]\n[h3]🎨 Improvements[/h3]\n[list]\n[*] Redesigned the Crafting tab for better usability.\n[*] Refreshed several in-game assets and icons.\n[*] Crafting now shows a clear \"in progress\" state and displays the item you just received, with less waiting.\n[/list]\n[h3]🐛 Bug Fixes[/h3]\n[list]\n[*] Fixed several Steamworks Inventory sync issues that could prevent Collection/Crafting items from loading or displaying correctly.\n[*] Fixed the Golden Pizza sometimes not registering clicks.\n[*] Fixed the Craft button getting stuck if a craft attempt failed.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1789158243,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1878895840_1789158724_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1846651706693804",
+      "title": "Pizza Empire - Update v2.14",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706693804",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]New[/h3]\n[list]\n[*] Halloween event from October 20 to November 3: spooky night theme, a pumpkin Golden Pizza, and Golden Pizzas show up more often.\n[*] 4 limited Halloween items in the Pizza Box: Pumpkin Slice, Pumpkin Pizza, Skeleton Rider, Haunted Plane.\n[*] New \"Random\" option for delivery drivers and planes in the Collection: a different skin every time.\n[/list]\n[h3]Improvements[/h3]\n[list]\n[*] Ovens, restaurants and factories redrawn in pixel art, with animated smoke and lights.\n[*] New pixel art and animations for the default, Gold, Tokyo Night and S1 scooters and the Electro Plane.\n[*] New, smaller Golden Pizza.\n[*] Cleaner screen: building counters and level labels removed.\n[*] The default cursor now shows its real look in the Collection.\n[*] Updated Steam inventory icons for several scooters and the Electro Plane.\n[*] Lots of behind-the-scenes cleanup for a more stable game.\n[/list]\n[h3]Bug Fixes[/h3]\n[list]\n[*] Fixed Season 2 items that could not be used in crafting.\n[*] Fixed some rare items missing from the rare crafting recipe.\n[*] Fixed the S1 Plane skin not displaying.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1792475212,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1847286114037469",
+      "title": "Pizza Empire - Update v2.15",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114037469",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]New[/h3]\n[list]\n[*] Pizza Empire is now available on Linux and Steam Deck, natively.\n[*] Supporter Pack DLC: 4 exclusive gold items (Supporter Slice, Diamond Pizza, VIP Rider, Golden Jet) and a Supporter badge on the leaderboard. Cosmetic only. The game stays free, with no ads.\n[*] Leaderboard: your own rank is now always shown at the bottom.\n[/list]\n[h3]Improvements[/h3]\n[list]\n[*] Much lighter game: capped at 60 FPS and slowed down when the window is in the background. Less CPU, less battery.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1792778537,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1847286114041514",
+      "title": "Pizza Empire - Update v2.16",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114041514",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]Fixes[/h3]\n[list]\n[*] Leaderboard: switching pages quickly no longer shows an empty page or only your own name.\n[*] Collection: your items no longer disappear after a Pizza Box drop or when the Supporter Pack items are granted.\n[/list]\n[h3]Improvements[/h3]\n[list]\n[*] Collection: the Supporter Pack items are now shown in dimmed gold until you own them.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1792919763,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1847286114042763",
+      "title": "Pizza Empire - Hotfix v2.17",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114042763",
+      "is_external_url": true,
+      "author": "bando ✮",
+      "contents": "[h3]Fixes[/h3]\n[list]\n[*] Leaderboard: the Supporter badge now also shows next to other players, not only next to your own name.\n[/list]",
+      "feedlabel": "Community Announcements",
+      "date": 1792955487,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 3248550,
+      "tags": [
+        "patchnotes"
+      ]
+    }
+  ],
+  "last_check": "2026-11-23"
+}
