@@ -7,7 +7,7 @@ Deux workflows GitHub Actions (copie adaptée de `ashen-steam-discord`) :
 | `sync.yml` (toutes les 15 min) | `sync_steam.py` | `#steam-announcements` | `DISCORD_WEBHOOK_URL` |
 | `reviews.yml` (toutes les 15 min) | `sync_reviews.py` | `#steam-reviews` | `DISCORD_REVIEWS_WEBHOOK_URL` |
 
-Les messages sont postés sous le nom « Pizza Empire Steam News », avec l'icône de la pizza pepperoni.
+Les messages sont postés sous le nom « Pizza Empire Steam News », avec l'icône du jeu (`assets/avatar.png`, la même que sur Steam et le serveur Discord).
 Ce qui a déjà été posté est retenu dans `state.json` et `reviews_state.json`, que le workflow commit après chaque passage.
 
 ## Mise en place

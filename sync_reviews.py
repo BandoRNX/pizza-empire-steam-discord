@@ -41,8 +41,8 @@ API_URL = (
 # Même nom et même avatar que les annonces : un seul « bot » visible sur le serveur.
 BOT_NAME = "Pizza Empire Steam News"
 BOT_AVATAR = (
-    "https://raw.githubusercontent.com/BandoRNX/pizza-empire-images/main/"
-    "ITEM_PEPERONI_NEW-200.png"
+    "https://raw.githubusercontent.com/BandoRNX/pizza-empire-steam-discord/main/"
+    "assets/avatar.png"
 )
 
 COLOR_UP = 0x5BA32B
