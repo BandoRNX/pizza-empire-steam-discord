@@ -16,22 +16,28 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
 APP_ID = 3248550
 STATE_FILE = Path("reviews_state.json")
 STEAMID64_BASE = 76561197960265728
-PAGES = 3                 # 10 évaluations par page, les plus récentes d'abord
-BATCH_SIZE = 5            # évaluations postées au maximum par passage
+MAX_PAGES = 30            # 10 évaluations par page, les plus récentes d'abord
+BATCH_SIZE = 10           # évaluations postées au maximum par passage
 TEXT_LIMIT = 1500         # au-delà, le texte est coupé avec un lien vers l'avis
 ATTEMPTS = 3
 USER_AGENT = "PizzaEmpire-Steam-Discord/1.0"
 
 COMMUNITY_URL = (
     "https://steamcommunity.com/app/{app}/reviews/"
-    "?browsefilter=mostrecent&filterLanguage=all&l=english&p={page}"
+    "?browsefilter=mostrecent&filterLanguage=all&l=english"
 )
+# Pages suivantes : Steam ignore « p= » sur /reviews/ et renvoie toujours la
+# 1re page. La suite se charge par /homecontent/ avec le curseur caché
+# (userreviewscursor, etc.) présent dans le formulaire de chaque page.
+MORE_URL = "https://steamcommunity.com/app/{app}/homecontent/?{query}"
+_HIDDEN_INPUT = re.compile(r'<input type="hidden" name="(\w+)" value="([^"]*)"')
 API_URL = (
     "https://store.steampowered.com/appreviews/{app}"
     "?json=1&filter=recent&language=all&purchase_type=all"
@@ -124,17 +130,37 @@ def parse_community_page(page_html):
     return reviews
 
 
-def fetch_community():
+def next_page_query(page_html):
+    """Paramètres de la page suivante, ou None s'il n'y en a plus."""
+    fields = [(name, html.unescape(value)) for name, value in _HIDDEN_INPUT.findall(page_html)]
+    if not any(name == "userreviewscursor" for name, _ in fields):
+        return None
+    return urllib.parse.urlencode(fields)
+
+
+def fetch_community(seen=frozenset()):
+    """Lit les pages de la plus récente à la plus ancienne et s'arrête sur une
+    page qui ne contient plus rien de nouveau (ou après MAX_PAGES)."""
     found = {}
-    for page in range(1, PAGES + 1):
-        url, page_html = http_get(COMMUNITY_URL.format(app=APP_ID, page=page))
-        if "steamcommunity.com" not in url:
-            raise RuntimeError(f"page communautaire redirigée vers {url}")
+    url, page_html = http_get(COMMUNITY_URL.format(app=APP_ID))
+    if "steamcommunity.com" not in url:
+        raise RuntimeError(f"page communautaire redirigée vers {url}")
+
+    for _ in range(MAX_PAGES):
         batch = parse_community_page(page_html)
-        if not batch:
+        fresh = [review for review in batch if review["id"] not in found]
+        if not fresh:
             break
-        for review in batch:
-            found.setdefault(review["id"], review)
+        for review in fresh:
+            found[review["id"]] = review
+        if all(review["id"] in seen for review in fresh):
+            break
+        query = next_page_query(page_html)
+        if not query:
+            break
+        time.sleep(1)
+        url, page_html = http_get(MORE_URL.format(app=APP_ID, query=query))
+
     return list(found.values())
 
 
@@ -163,10 +189,10 @@ def fetch_api():
     return reviews
 
 
-def fetch_reviews():
+def fetch_reviews(seen=frozenset()):
     """Les plus récentes d'abord."""
     try:
-        reviews = fetch_community()
+        reviews = fetch_community(seen)
         print(f"Steam : {len(reviews)} évaluation(s) lue(s) sur la page communautaire")
         return reviews
     except Exception as error:  # noqa: BLE001 - on tente la source de secours
@@ -288,7 +314,9 @@ def main(argv=None):
 
     state = load_state()
     seen = set(state["seen_ids"])
-    reviews = fetch_reviews()
+    # Tant que tout l'historique n'a pas été posté (« complete »), on lit
+    # toutes les pages ; ensuite on s'arrête à la première page déjà vue.
+    reviews = fetch_reviews(seen if state.get("complete") else frozenset())
     new = [review for review in reversed(reviews) if review["id"] not in seen]
     print(f"{len(new)} nouvelle(s) évaluation(s)")
 
@@ -303,6 +331,8 @@ def main(argv=None):
         time.sleep(1)
 
     if not args.dry_run:
+        if len(new) <= BATCH_SIZE:
+            state["complete"] = True
         state["last_check"] = time.strftime("%Y-%m-%d %H:%M", time.gmtime())
         save_state(state)
     return 0
