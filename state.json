@@ -38,23 +38,6 @@
     "1847286114041514",
     "1847286114042763"
   ],
-  "pending": [
-    {
-      "gid": "1847286114042763",
-      "title": "Pizza Empire - Hotfix v2.17",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114042763",
-      "is_external_url": true,
-      "author": "bando ✮",
-      "contents": "[h3]Fixes[/h3]\n[list]\n[*] Leaderboard: the Supporter badge now also shows next to other players, not only next to your own name.\n[/list]",
-      "feedlabel": "Community Announcements",
-      "date": 1792955487,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 3248550,
-      "tags": [
-        "patchnotes"
-      ]
-    }
-  ],
+  "pending": [],
   "last_check": "2026-11-23"
 }
